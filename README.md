@@ -11,7 +11,7 @@ Use of AI tools is allowed, but candidates must be able to explain and justify t
 
 This is the backend for **FarmLokal**, a hyperlocal marketplace connecting households directly with local farmers. This project demonstrates a production-ready system design focusing on **performance, scalability, and reliability**.
 
-**Deployed URL**: [https://farmlokal-backend.onrender.com](https://farmlokal-backend.onrender.com) 
+**Deployed URL**: https://farmlokal-b0wm.onrender.com
 
 ## Key Features
 
