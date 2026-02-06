@@ -1,15 +1,19 @@
 const { createClient } = require('redis')
 
-const redisClient = createClient({
-  url: process.env.REDIS_URL || 'redis://localhost:6379'
-})
+if (!process.env.REDIS_URL) {
+  console.error('❌ REDIS_URL is not defined in environment variables')
+}
 
-redisClient.on('error', (err) => {
-  console.error('❌ Redis Error:', err.message)
+const redisClient = createClient({
+  url: process.env.REDIS_URL
 })
 
 redisClient.on('connect', () => {
   console.log('✅ Redis Connected')
+})
+
+redisClient.on('error', (err) => {
+  console.error('❌ Redis Error:', err)
 })
 
 async function connectRedis() {
