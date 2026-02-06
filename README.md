@@ -1,6 +1,5 @@
 # FarmLokal Backend Assignment
 
-Use of AI tools is allowed, but candidates must be able to explain and justify their implementation decisions.
 
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![Express](https://img.shields.io/badge/Express-5.0-blue)
